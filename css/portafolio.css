@@ -1,0 +1,59 @@
+.body {
+  background-color: #093057;
+  color: white;
+  justify-content: center;
+  text-align: justify;
+}
+
+.footer {
+  align-self: flex-end;
+  padding-top: 20px;
+  background-color: slategrey;
+}
+
+.imagenFormato {
+  width: 600px;
+  height: 350px;
+}
+
+.cardFormato {
+  margin-right: 12px;
+  width: 15.7rem;
+  margin-left: 10px;
+  background-color: transparent;
+}
+
+.cardText {
+  color: black;
+  font-size: 18px;
+}
+
+.imagenCard {
+  width: 250px;
+  height: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(img/hills.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    justify-content: center;
+    text-align: justify;
+  }
+  h1 {
+    color: white;
+    font-family: "Sofia";
+    text-shadow: 2px 2px;
+  }
+  a {
+    padding: 5px;
+  }
+  div {
+    background-color: transparent;
+  }
+  P {
+    justify-content: center;
+  }
+}
